@@ -1,0 +1,11 @@
+#Mac
+.DS_Store
+
+#Windows
+Thumbs.db
+
+#Project
+_reference/
+*.log
+*.pyc
+__pycache__/
