@@ -14,8 +14,8 @@ The translator's generated assembly code is designed to run on a simple general-
 
 The Virtual Machine Translator reads .vm files in the data directory and generates .asm files. Either a .vm file or a directory with .vm files if fed as a parameter to the command line. For a file, one .asm translation is created at the same location. For a directory, one .asm translation is created within the directory for all .vm files in that directory.
 
-To pass a class auto-grader, the translator runs from within the vm_translator directory, and the file with the main function is called VMTranslator. The translator also runs vm_translator as a package from the root directory. Tests only run from the root directory. 
-6
+The translator runs vm_translator as a package from the root directory. To pass a course auto-grader, the translator also runs from within the vm_translator directory, using a file called VMTranslator. Tests only run from the root directory. 
+
 Examples from root directory:
 - To translate the data/SimpleFunction.vm file: `python -m vm_translator data/SimpleFunction.vm`
 - To translate all files in the data/FibonacciElement directory: `python -m vm_translator data/FibonacciElement`
