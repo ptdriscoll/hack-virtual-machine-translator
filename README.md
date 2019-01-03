@@ -12,7 +12,7 @@ The translator's generated assembly code is designed to run on a simple general-
 
 ### Usage
 
-The Virtual Machine Translator reads .vm files in the data directory and generates .asm files. Either a .vm file or a directory with .vm files if fed as a parameter to the command line. For a file, one .asm translation is created at the same location. For a directory, one .asm translation is created within the directory for all .vm files in that directory.
+The Virtual Machine Translator reads .vm files and generates .asm files. A path to either a .vm file or a directory with .vm files is fed as a parameter to the command line. For a file, one .asm translation is created at the same location. For a directory, one .asm translation is created within the directory for all .vm files in that directory.
 
 The translator runs vm_translator as a package from the root directory. To pass a course auto-grader, the translator also runs from within the vm_translator directory, using a file called VMTranslator. Tests run only from the root directory. 
 
