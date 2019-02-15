@@ -2,7 +2,9 @@
 
 The Hack Virtual Machine Translator is the back-end of a compiler for a typical object-based programming language. 
 
-Written in Python 3 and modeled after the Java Virtual Machine (JVM), this translates stack-based virtual memory segments and related commands into machine language. The compiler's front end - [the Jack Compiler](https://github.com/ptdriscoll/jack-compiler) - transforms high-level Jack programs into virtual-machine code. Two-tier compilers using virtual machines provide flexibility that makes it easier to run program codes on multiple platforms.
+Written in Python 3 and modeled after the Java Virtual Machine (JVM), this translates stack-based virtual memory segments and related commands into machine language. The compiler's front end - [the Jack Compiler](https://github.com/ptdriscoll/jack-compiler) - transforms high-level Jack programs into virtual-machine code. 
+
+Two-tier compilers using virtual machines provide flexibility that makes it easier to run program codes on multiple platforms.
 
 The translator's generated assembly code is designed to run on a simple general-purpose computer, which is built from scratch in a two-part course called From Nand to Tetris. An accompanying book is called The Elements of Computing Systems: Building a Modern Computer from First Principles. See reference links below. 
 
