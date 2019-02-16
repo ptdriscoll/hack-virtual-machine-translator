@@ -31,6 +31,10 @@ Examples from vm_translator directory:
 - To translate all files in the data/FibonacciElement directory: `python VMTranslator.py ../data/FibonacciElement`
 - To translate all .vm files and directories in the data directory: `python VMTranslator.py run_all`  
 
+<br>
+
+<img src="img/stack-implementation.png" width="675">
+
 ### References
 
 - Website: https://www.nand2tetris.org/software
