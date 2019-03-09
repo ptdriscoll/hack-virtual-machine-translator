@@ -1,6 +1,6 @@
 # Hack Virtual Machine Translator  
 
-The Hack Virtual Machine Translator is the back-end of a compiler for a typical object-based programming language. 
+The Hack Virtual Machine Translator is the back end of a compiler for a typical object-based programming language. 
 
 Written in Python 3 and modeled after the Java Virtual Machine (JVM), this translates stack-based virtual memory segments and related commands into machine language. 
 
